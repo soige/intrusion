@@ -1,6 +1,13 @@
 # Intrusion
 Security Hardening、Detection
 
+# UPDATE
+ * 将检查项整合以插件模块输出
+ * 增加日志记录功能
+
+# TODO
+ * 增加上传（FTP、Rsync）模块，将日志上传到统一服务器
+
 ## Baseline Check
 
 ### 检测是否有系统安全更新
