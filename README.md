@@ -10,14 +10,15 @@ Security Hardening、Detection
 
 ## Baseline Check
 
+### RUN TIME LOG
 ~~~
-[root@ccsec intrusion]# bash baseline_check.sh
+[root@seclab intrusion]# bash baseline_check.sh
 
         --------------------------------------------------------------------------
         Operating system:                 Linux
         Operating system version:         CentOS Linux release 7.0.1406 (Core)
         Hardware platform:                x86_64
-        Hostname:                         ccsec
+        Hostname:                         seclab
         --------------------------------------------------------------------------
 
         [*] Found plugin file: ./plugins/plugin_remote_pty_login.sh
